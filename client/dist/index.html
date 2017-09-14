@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="pt-BR" ng-app="app"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Dribbble</title><link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection"></head><body><data ui-view></data><script type="text/javascript" src="js/libs.min.js"></script><script type="text/javascript" src="js/scripts.min.js"></script><script type="text/javascript">(function(){ "use strict";
+            app.controller('ShotsController',function($scope,Shots){
+                Shots.fetchAll().$promise.then(function(data){
+                    $scope.shots = data;
+                });
+            });
+        }());
+
+        (function(){ "use strict";
+            app.controller('ShotsDetailController',function($scope, $stateParams, Shots){ 
+                Shots.fetchById({id:$stateParams.id}).$promise.then(function(data){
+                    $scope.shot = data;
+                });
+            });
+        }());</script></body></html>

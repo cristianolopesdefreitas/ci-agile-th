@@ -1,32 +1,35 @@
 {
   "name": "angular-ui-router",
-  "description": "State-based routing for AngularJS",
+  "version": "0.3.1",
   "license": "MIT",
   "main": "./release/angular-ui-router.js",
   "dependencies": {
-    "angular": ">= 1.2.0"
+    "angular": "^1.0.8"
   },
   "ignore": [
     "**/.*",
-    "**/tsconfig.json",
-    "**/tsconfig.typedoc.json",
-    "**/webpack.config.js",
-    "**/node_modules",
+    "node_modules",
+    "bower_components",
+    "component.json",
     "package.json",
-    "scripts",
+    "lib",
+    "config",
+    "sample",
     "test",
-    "src"
+    "tests",
+    "ngdoc_assets",
+    "Gruntfile.js",
+    "files.js"
   ],
-  "version": "1.0.6",
   "homepage": "https://github.com/angular-ui/angular-ui-router-bower",
-  "_release": "1.0.6",
+  "_release": "0.3.1",
   "_resolution": {
     "type": "version",
-    "tag": "1.0.6",
-    "commit": "1f5f1f67a320fdde441c035f5d6a6b8645c78edd"
+    "tag": "0.3.1",
+    "commit": "6ac1c61991121f5324f99089003314bba3bc6a95"
   },
   "_source": "https://github.com/angular-ui/angular-ui-router-bower.git",
-  "_target": "^1.0.6",
+  "_target": "^0.3.1",
   "_originalSource": "angular-ui-router",
   "_direct": true
 }
