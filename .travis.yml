@@ -5,4 +5,4 @@ deploy:
   provider: heroku
   api_key:
     secure: "58c658ea-df65-4d22-8b1a-d5c59c8519b8"
-  app: ci-agile-th
+  app: continuous-integration-example
