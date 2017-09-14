@@ -3,7 +3,7 @@
 
     module.factory('TokenHandler', function() {
       var tokenHandler = {};
-      var token = "e82d4d79506602b61c199b4512d0dac31cd55bba3ba8d51f71008ffd6337618e";
+      var token = "8fd109d510e08db5fd5d56fd2ad1102c5b0f3acc8d3bbb58bbe647f2c26fed67";
 
       tokenHandler.set = function( newToken ) {
         token = newToken;
